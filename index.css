@@ -22,8 +22,10 @@
 	
 }
 
+#nav a:hover {color: #DCE4FF;}
+
 #nav a{
-	color:#FFFFFF;
+	color: #FFFFFF;
 	font-size:14pt;
 	font-family: Arial;
 	text-decoration: none;
@@ -82,13 +84,13 @@
 	left:0%;
 	z-position:-1;
 	height:100%;
-	width:15.0%;
+	width:125px;
 	background-color:#333399;
 }
 
 .contentpn{
 	position:absolute;
-	left:15.0%;
+	left:125px;
 	width:100%;
 	height:100%;
 	top:125px;
@@ -96,100 +98,7 @@
 	background-color:#DCE4FF;
 }
 
-@-webkit-keyframes bounceInUp {
-  0%, 60%, 75%, 90%, 100% {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
 
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 3000px, 0);
-    transform: translate3d(0, 3000px, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(0, 10px, 0);
-    transform: translate3d(0, 10px, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, -5px, 0);
-    transform: translate3d(0, -5px, 0);
-  }
-
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes bounceInUp {
-  0%, 60%, 75%, 90%, 100% {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-  }
-
-  0% {
-    opacity: 0;
-    -webkit-transform: translate3d(0, 3000px, 0);
-    transform: translate3d(0, 3000px, 0);
-  }
-
-  60% {
-    opacity: 1;
-    -webkit-transform: translate3d(0, -20px, 0);
-    transform: translate3d(0, -20px, 0);
-  }
-
-  75% {
-    -webkit-transform: translate3d(0, 10px, 0);
-    transform: translate3d(0, 10px, 0);
-  }
-
-  90% {
-    -webkit-transform: translate3d(0, -5px, 0);
-    transform: translate3d(0, -5px, 0);
-  }
-
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-
-@-webkit-keyframes slideInRight {
-  0% {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
-
-@keyframes slideInRight {
-  0% {
-    -webkit-transform: translate3d(100%, 0, 0);
-    transform: translate3d(100%, 0, 0);
-    visibility: visible;
-  }
-
-  100% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-  }
-}
 @-webkit-keyframes slideInLeft {
   0% {
     -webkit-transform: translate3d(-100%, 0, 0);
@@ -244,9 +153,9 @@
 }
 .header p{
 	position: relative;
-	margin-top:-5.0%;
+	margin-top:-40px;
 	top:0%;
-	left: 27.0%;
+	left: 300px;
 	font-size:18;
 	font-weight: bold;
 	color:#000066;
