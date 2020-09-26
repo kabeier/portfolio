@@ -2,7 +2,7 @@
 <head>
 <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<link href="index.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
 
 <script type='text/javascript'>
 $(function(){
@@ -25,7 +25,7 @@ hideContentDivs();
 <body>
 <nav class="navbar navbar-inverse navbar-fixed-top"><div class="container-fluid" >
 
-<div class="pic"><div class="container"><img src="me.jpg" width=75px height=75px align=left></div></div>
+<div class="pic"><div class="container"><img src="images/me.jpg" width=75px height=75px align=left></div></div>
 
 <div class="picframe"><div class="container"></div></div>
 
@@ -73,7 +73,7 @@ hideContentDivs();
 
 <p>I have passed the Oracle Java 7 SE Programmer 1 certification (1Z0-803)</p>
 <BR>
-<a href="803cert.pdf"><img src="oraclelogo.png"></a>
+<a href="803cert.pdf"><img src="images/oraclelogo.png"></a>
 </div>
 
 
@@ -85,9 +85,18 @@ hideContentDivs();
 <p>sub4 content</p>
 </div>
 <div class="content" id="sub5">
-<p>E-mail: kabeier@gmail.com<br>Phone: (919)815-5698</p>
+<form action="mailto:kabeier@gmail.com" method="POST" enctype="multipart/form-data" name="ContactMe">
+Name:<br>
+<input type="text" size="24" name="Name">
+<br>
+Reply E-mail:<br>
+<input type="text" size="24" name="Email">
+<br><br>
+Message:<br> <textarea name="Message" rows="4" cols="20"></textarea>
+<br><br> 
+<input type="submit" value="Submit">
+</form>
 </div>
-
 
 <div class="content" id="sub6">
 <p>Can clean, manipulate and report data using R programming language.<br> View an example <a href="PA1_template.html"> here</a></p>
