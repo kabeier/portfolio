@@ -21,7 +21,7 @@
 	
 }
 
-#nav a:hover {color: #a3aaf7;}
+#nav a:hover {color: #c2c7ff;}
 
 #nav a{
 	color: #FFFFFF;
@@ -60,7 +60,7 @@
 @-webkit-keyframes pf {
      0%   {background: #3333CC; left: 0%; top: 0%;}
     25%  {background: #000a78; left: 100px; top: 0%;}
-    50%  {background: #a3aaf7; left: 100px; top: 100px;}
+    50%  {background: #c2c7ff; left: 100px; top: 100px;}
     75%  {background: #2732a8; left: 0%; top: 100px;}
     100% {background: #000752; left: 0%; top: 0%;}
 }
@@ -68,7 +68,7 @@
 @keyframes pf {
      0%   {background: #3333CC; left: 0%; top: 0%;}
     25%  {background: #000a78; left: 100px; top: 0%;}
-    50%  {background: #a3aaf7; left: 100px; top: 100px;}
+    50%  {background: #c2c7ff; left: 100px; top: 100px;}
     75%  {background: #2732a8; left: 0%; top: 100px;}
     100% {background: #000752; left: 0%; top: 0%;}
 }
@@ -92,7 +92,7 @@
 	width:100%;
 	height:100%;
 	top:125px;
-	background-color:#a3aaf7;
+	background-color:#c2c7ff;
 }
 
 
@@ -178,11 +178,12 @@
 
 
 .content p{
-	width:400px;
-	font-size:12pt; 
+	width:600px;
+	font-size:14pt; 
 	font-family: Helvetica;
 	color:#2732a8;
 	text-align: center;
+	
 
 }
 
