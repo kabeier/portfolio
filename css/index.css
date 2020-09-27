@@ -125,11 +125,11 @@
 
 
 .header h1{
+
 	font-size:64;
 	position:relative;
 	font-family:"Georgia", serif;
 	color:#000066;
-
 	 -webkit-text-fill-color: #000066;
 	 -webkit-text-stroke-width: 1px;
 	 -webkit-text-stroke-color: #333399;
@@ -176,17 +176,7 @@
     100% { opacity: 1;}
 }
 
-.switcher{
-	position:relative;
-	padding-top:5%;
-	padding-left: 0;
-	padding-right: 0;
-	padding-bottom: 0;
-	color:black;
-	z-position:1;
-	font-size:12pt; 
-	font-family: Helvetica;
-}
+
 
 .content p{
 	width:400px;
