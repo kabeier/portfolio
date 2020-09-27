@@ -183,11 +183,14 @@
 	color:black;
 	z-position:1;
 	font-size:12pt; 
-	font-family: Arial;
+	font-family: Helvetica;
 }
 
 .content p{
-  width:50.0%;
+  width:400px;
+  font-size:12pt; 
+  font-family: Helvetica;
+  text-align: center;
 }
 
 .content h1{
