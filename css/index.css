@@ -1,23 +1,23 @@
 .menu{
-	background-color: 000a78;
+	background-color: #000a78;
 	position: absolute;
 	left:0%;
 	top:0%;
 	height:125px;
 	width: 100%;
 	font-weight: bold;
+	
 }
 
 
 .menu li:first-child { 
-	padding-left:5%;
+	padding-left:15%;
 }
 
 .menu li{
 	position:relative;
-	top:5%;
 	display:inline;
-	margin: 3%;
+	margin: 2%;
 	
 }
 
@@ -36,8 +36,7 @@
 	left:25px;
 	background-size:100px 100px;
 	z-index:1;
-	image-size:75px;
-	imagewidth:75px;
+
 	
 }
 
@@ -82,14 +81,14 @@
 	left:0%;
 	z-position:-1;
 	height:100%;
-	width:125px;
+	width:15%;
 	background-color:#2732a8;
 }
 
 .contentpn{
 	position:absolute;
 	left:125px;
-	width:100%;
+	width:85%;
 	height:100%;
 	top:125px;
 	background-color:#c2c7ff;
@@ -197,7 +196,26 @@
 .content h2{
 	position:relative;
 	color:#000752;
-	
-	
+}
+body {
+  overflow-x: hidden;
+ 
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 
+html {
+  --scbar: #000a78;
+  --thumb: #2732a8;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scbar);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumb) ;
+  border-radius: 3px;
+  border: 3px solid var(--scbar);
+}
