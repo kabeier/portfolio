@@ -1,126 +1,105 @@
-
 <html>
-<head>
-<script type="text/javascript" src="jquery-2.1.4.min.js"></script>
-<link href="css/index.css" rel="stylesheet">
-
-<script type='text/javascript'>
-$(function(){
-$('#nav a').click(function(e){
-     hideContentDivs();
-     var tmp_div = $(this).parent().index();
-     $('.main div').eq(tmp_div).show("slow");
-  });
-
-function hideContentDivs(){
-    $('.main div').each(function(){
-    $(this).hide();});
-}
-hideContentDivs();
-});
-
-</script>
-<title>Kevin Beier Programmer</title>
-<meta name="viewport" content="width=device-width, initial-scale=.5">
-
-</head>
-
-<body>
-<nav class="navbar navbar-inverse navbar-fixed-top"><div class="container-fluid" >
-
-<div class="pic"><div class="container"><img src="images/me.jpg" width=75px height=75px align="left"></div></div>
-<div class="picframe"><div class="container"></div></div>
-
-<div class="menu" >
-<div class="container">
-
-<ul id="nav">
-<li id="lkam"><a href="#">About Me</a></li>
-<li id="lkp"><a href="#">Python</a></li>
-<li id="lkj"><a href="#">Java</a></li>
-<li id="lkr"><a href="#">R</a></li>
-<li id="lkrsh"><a href="#">Research</a></li>
-<li id="lkcm"><a href="#">Contact Me</a></li>
-</ul>
-</div></nav>
-
-
-<div class="fauxmenuleft">
-<div class="container">
-</div></div>
-
-
-
-
-<div class="contentpn"><div class="container">
-
-<div class="header">
-<div class="container">
-<h1>Kevin Beier</h1>
-<div class="hider"><p>programmer</p></div>
-</div></div>
-
-<div class="main">
-
-
-
-<div class="content" id="aboutme">
-<h2>About Me</h2>
-<p>
-  I started developing websites in my teenage years in the late 90's.  I maintained several sites for pleasure one of which contained over 2000 hand coded pages.  As I reached my later teens I learned to code with BASIC and Karel++ then my first real coding experience was in C++.   While attending NC State University for Biochemistry, I learned to code in VPython.  I then went on to do some work with University of West GA where I used NI Vision to automate image processing.  After college I taught myself Java, R, SQL, and took the CodingTemple Python Bootcamp.  I have recently decided to change careers to become a professional coder, because my love for coding has never wavered throughout my life.
-</p></div>
-
-<div class="content" id="python">
-<h2>Python</h2>
-<p>Learned fullstack python design from CodingTemple Bootcamp.  I will be adding some Python content here in the future</p>
-</div>
-
-<div class="content" id="java">
-<h2>Java</h2>
-<p>
-I have made a basic Pong game, which you can download <a href="pongjava/pong.zip">here</a>  I utilized JFrame and AWT components to build the game.
-<BR><BR><BR>
-I have passed the Oracle Java 7 SE Programmer 1 certification (1Z0-803)
-<BR>
-<a href="803cert.pdf"><img src="images/oraclelogo.png"></a>
-</div>
-
-<div class="content" id="r">
-<h2>R Statistical Language</h2>
-<p>Can clean, manipulate and report data using R programming language.<br> View an example <a href="PA1_template.html"> here</a></p>
-</div>
-
-
-<div class="content" id="research">
-<h2>Research</h2>
-<p>I worked with West Georgia utilizing NI Vision to develop automated methods of analyzing homogeneity of surfaces using photographic images of liquid droplets to determine the contact angle of droplet on the substrate  culminating in <a href="paper.html">this paper</a></p>
-</div>
-
-
-
-<div class="content" id="contactme">
-
-<h2>Contact Me</h2>
-
-<form action="https://formspree.io/mdopkkzo" method="POST" name="Contact">
-
-<p>Name:</p>
-<p><input type="text" size="24" name="Name"></p>
-
-<p>Reply E-mail:</p>
-
-<p><input type="text" size="24" name="Email"></p>
-<p>Message:</p>
-<p><textarea name="Message" rows="7" cols="50"></textarea></p>
-<p><input type="submit" value="Send"></p>
-</form>
-<br><br> 
-<p>or email me at <a href="mailto:kevin@justonegeek.com">kevin@justonegeek.com</a></p>
-</p>
-</div>
-
-</div>
-</div></div>
-
-</body>
+   <head>
+      <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+      <link href="css/index.css" rel="stylesheet">
+      <script type='text/javascript'>
+         $(function(){
+         $('#nav a').click(function(e){
+              hideContentDivs();
+              var tmp_div = $(this).parent().index();
+              $('.main div').eq(tmp_div).show("slow");
+           });
+         
+         function hideContentDivs(){
+             $('.main div').each(function(){
+             $(this).hide();});
+         }
+         hideContentDivs();
+         });
+         
+      </script>
+      <title>Kevin Beier Programmer</title>
+      <meta name="viewport" content="width=device-width, initial-scale=.5">
+   </head>
+   <body>
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+         <div class="container-fluid" >
+         <div class="pic">
+            <div class="container"><img src="images/me.jpg" width=75px height=75px align="left"></div>
+         </div>
+         <div class="picframe">
+            <div class="container"></div>
+         </div>
+         <div class="menu" >
+         <div class="container">
+            <ul id="nav">
+               <li id="lkam"><a href="#">About Me</a></li>
+               <li id="lkp"><a href="#">Python</a></li>
+               <li id="lkj"><a href="#">Java</a></li>
+               <li id="lkr"><a href="#">R</a></li>
+               <li id="lkrsh"><a href="#">Research</a></li>
+               <li id="lkcm"><a href="#">Contact Me</a></li>
+            </ul>
+         </div>
+      </nav>
+      <div class="fauxmenuleft">
+         <div class="container"></div>
+      </div>
+      <div class="contentpn">
+         <div class="container">
+            <div class="header">
+               <div class="container">
+                  <h1>Kevin Beier</h1>
+                  <div class="hider">
+                     <p>programmer</p>
+                  </div>
+               </div>
+            </div>
+            <div class="main">
+               <div class="content" id="aboutme">
+                  <h2>About Me</h2>
+                  <p>
+                     I started developing websites in my teenage years in the late 90's.  I maintained several sites for pleasure one of which contained over 2000 hand coded pages.  As I reached my later teens I learned to code with BASIC and Karel++ then my first real coding experience was in C++.   While attending NC State University for Biochemistry, I learned to code in VPython.  I then went on to do some work with University of West GA where I used NI Vision to automate image processing.  After college I taught myself Java, R, SQL, and took the CodingTemple Python Bootcamp.  I have recently decided to change careers to become a professional coder, because my love for coding has never wavered throughout my life.
+                  </p>
+               </div>
+               <div class="content" id="python">
+                  <h2>Python</h2>
+                  <p>Learned fullstack python design from CodingTemple Bootcamp.  I will be adding some Python content here in the future</p>
+               </div>
+               <div class="content" id="java">
+                  <h2>Java</h2>
+                  <p>
+                     I have made a basic Pong game, which you can download <a href="pongjava/pong.zip">here</a>  I utilized JFrame and AWT components to build the game.
+                     <BR><BR><BR>
+                     I have passed the Oracle Java 7 SE Programmer 1 certification (1Z0-803)
+                     <BR>
+                     <a href="803cert.pdf"><img src="images/oraclelogo.png"></a>
+               </div>
+               <div class="content" id="r">
+                  <h2>R Statistical Language</h2>
+                  <p>Can clean, manipulate and report data using R programming language.<br> View an example <a href="PA1_template.html"> here</a></p>
+               </div>
+               <div class="content" id="research">
+                  <h2>Research</h2>
+                  <p>I worked with West Georgia utilizing NI Vision to develop automated methods of analyzing homogeneity of surfaces using photographic images of liquid droplets to determine the contact angle of droplet on the substrate  culminating in <a href="paper.html">this paper</a></p>
+               </div>
+               <div class="content" id="contactme">
+                  <h2>Contact Me</h2>
+                  <form action="https://formspree.io/mdopkkzo" method="POST" name="Contact">
+                     <p>Name:</p>
+                     <p><input type="text" size="24" name="Name"></p>
+                     <p>Reply E-mail:</p>
+                     <p><input type="text" size="24" name="Email"></p>
+                     <p>Message:</p>
+                     <p><textarea name="Message" rows="7" cols="50"></textarea></p>
+                     <p><input type="submit" value="Send"></p>
+                  </form>
+                  <br><br> 
+                  <p>or email me at <a href="mailto:kevin@justonegeek.com">kevin@justonegeek.com</a></p>
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </body>
 </html>

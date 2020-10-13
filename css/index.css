@@ -218,6 +218,9 @@ html {
   --scbar: #000a78;
   --thumb: #2732a8;
 }
+
+
+
 body::-webkit-scrollbar {
   width: 10px;
 }
